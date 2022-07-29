@@ -13,6 +13,11 @@ les entrées sont :
 /cart -> permet de récupérer le contenu du panier de l'utilisateur
 /setCart -> permet de mettre à jour le contenu du panier de l'utilisateur
 
+les technologies utilisées sont : 
+- Nest.js
+- TypeScript
+- Sqlite
+
 # Installation
 
 1) Simple (sur une machie avec node, npm, visual studio code, soapUI):
