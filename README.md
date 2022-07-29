@@ -31,25 +31,25 @@ les entrées sont :
 
 Get localhost:3000/login :
 Envoie d'un Get avec les headers personnalisés suivant pour savoir si l'utilisateur est enregistré : 
-'login':'vincent@airweb.fr' -> ici le login de l'utilisateur
-'password':'bonjour' -> ici le mot de passe
+- 'login':'vincent@airweb.fr' -> ici le login de l'utilisateur
+- 'password':'bonjour' -> ici le mot de passe
 
 Get localhost:3000/products :
 Envoie d'un Get avec les headers personnalisés suivant pour récupérer la liste des produits disponibles : 
-'login':'vincent@airweb.fr' -> ici le login de l'utilisateur
-'password':'bonjour' -> ici le mot de passe
--> si les headers sont absents ou invalides, seulement les produits publiques sont retournés
+- 'login':'vincent@airweb.fr' -> ici le login de l'utilisateur
+- 'password':'bonjour' -> ici le mot de passe
+- -> si les headers sont absents ou invalides, seulement les produits publiques sont retournés
 
 Get localhost:3000/setCart :
 Envoie d'un Get avec les headers personnalisés suivant pour sauvegarder le panier de l'utilisateur :
-'login':'vincent@airweb.fr' -> ici le login de l'utilisateur
-'password':'bonjour' -> ici le mot de passe
-'cart_content' : '{"cart_items" : [1,5,3,...]}' -> ici les id des produits à ajouter
+- 'login':'vincent@airweb.fr' -> ici le login de l'utilisateur
+- 'password':'bonjour' -> ici le mot de passe
+- 'cart_content' : '{"cart_items" : [1,5,3,...]}' -> ici les id des produits à ajouter
 
 Get localhost:3000/cart :
 Envoie d'un Get avec les headers personnalisés suivant pour récupérer la liste des produits sauvegardés dans le panier : 
-'login':'vincent@airweb.fr' -> ici le login de l'utilisateur
-'password':'bonjour' -> ici le mot de passe
+- 'login':'vincent@airweb.fr' -> ici le login de l'utilisateur
+- 'password':'bonjour' -> ici le mot de passe
 
 # Axes d'améliorations
 
