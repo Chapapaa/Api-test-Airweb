@@ -20,6 +20,8 @@ les technologies utilisées sont :
 
 # Installation
 
+(== Par soucis de compression, node_modules ne fait pas partie du repertoire git, il faut vérifier que les dépendances soient bien réinstallées au lancement ==)
+
 1) Simple (sur une machie avec node, npm, visual studio code, soapUI):
 - Récupérer le projet sur une machine avec node.js et npm d'installé
 - Ouvrir le projet avec Visual Studio Code (ou équivalent)
@@ -29,6 +31,7 @@ les technologies utilisées sont :
 
 2) Détaillée (sur une machine avec node et npm)
 - Récupérer le projet
+- l'ouvrir avec visual studio code ou équivalent
 - ouvrir un terminal et se rendre à la racine du projet
 - entrer la commande : npm run start
 -> le serveur se lance en local sur l'adresse localhost:3000
